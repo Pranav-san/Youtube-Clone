@@ -1,0 +1,56 @@
+.Sidebar{
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 65px;
+  width: 245px;
+
+
+}
+
+.Sidebar-Link{
+  height: 35px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+
+
+}
+
+.Sidebar-Link:active{
+  background-color: black;
+}
+
+.Sidebar-Link img{
+
+  padding: 25px;
+
+}
+
+.Sidebar-Link span{
+
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  padding-top: 5px;
+
+}
+
+.You{
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  padding-left: 20px;
+
+}
+
+.Sidebar-Link:hover{
+  background-color:rgb(228, 228, 228);
+  
+}
